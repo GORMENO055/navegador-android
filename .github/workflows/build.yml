@@ -24,7 +24,7 @@ jobs:
         ./gradlew assembleDebug
 
     - name: Upload APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v2
       with:
         name: navegador-streaming-apk
         path: app/build/outputs/apk/debug/app-debug.apk
